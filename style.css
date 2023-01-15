@@ -1,0 +1,64 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #12a89d;
+    margin: 0rem;
+    overflow: hidden;
+  }
+
+footer {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  gap: 4vmin;
+  position: absolute;
+  left: 50%;
+  top: 45%;
+}
+
+  #bouton {
+    display: flex;
+    gap: 4vmin;
+    position: absolute;
+    left: 58%;
+    top: 38%;
+    transform: translate(0%, -50%); 
+    user-select: none; 
+
+  }
+
+  #image-click {
+    display: flex;
+    gap: 4vmin;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(0%, -50%); 
+    user-select: none; 
+
+  }
+
+  #image-click > .image {
+    width: 20vmin;
+    height: 20vmin;
+    object-fit: cover;
+    object-position: 100% center;
+  }
+  
+  #image-track {
+    display: flex;
+    gap: 4vmin;
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translate(0%, -50%); 
+    user-select: none; 
+  }
+  
+  #image-track > .image {
+    width: 40vmin;
+    height: 56vmin;
+    object-fit: cover;
+    object-position: 100% center;
+  }
+
+  
